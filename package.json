@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "gas:dev": "NODE_ENV=development node app.js",
+    "gas": "NODE_ENV=production node app.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "lodash": "^4.17.23",
+    "moment": "^2.30.1"
+  }
+}
