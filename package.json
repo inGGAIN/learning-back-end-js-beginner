@@ -1,11 +1,27 @@
 {
+  "name": "learning-back-end-js-beginner",
+  "version": "1.0.0",
+  "description": "dicoding",
+  "homepage": "https://github.com/inGGAIN/learning-back-end-js-beginner#readme",
+  "bugs": {
+    "url": "https://github.com/inGGAIN/learning-back-end-js-beginner/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inGGAIN/learning-back-end-js-beginner.git"
+  },
+  "license": "ISC",
+  "author": "inGGAIN",
+  "type": "module",
+  "main": "index.js",
   "scripts": {
+    "start": "node web-server/server.js",
     "gas:dev": "NODE_ENV=development node app.js",
     "gas": "NODE_ENV=production node app.js"
   },
-  "type": "module",
   "dependencies": {
     "lodash": "^4.17.23",
     "moment": "^2.30.1"
-  }
+  },
+  "devDependencies": {}
 }
