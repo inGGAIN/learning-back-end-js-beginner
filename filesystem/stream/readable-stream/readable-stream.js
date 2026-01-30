@@ -1,6 +1,6 @@
 import fs from 'fs';
 
-const readableStream = fs.createReadStream('filesystem/readable-stream/article.txt', {
+const readableStream = fs.createReadStream('filesystem/stream/readable-stream/article.txt', {
     highWaterMark: 10
 });
 
